@@ -1,0 +1,10 @@
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\bin\Debug\AddressGenerator.exe.config
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\bin\Debug\AddressGenerator.exe
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\bin\Debug\AddressGenerator.pdb
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.csprojAssemblyReference.cache
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.Form1.resources
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.Properties.Resources.resources
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.csproj.GenerateResource.cache
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.exe
+C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.pdb
