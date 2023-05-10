@@ -9,6 +9,6 @@ namespace AddressGenerator
     interface IAddress
     {
         string generateIPv4();
-        string generateSubnet();
+        string generateSubnet(int cidr);
     }
 }

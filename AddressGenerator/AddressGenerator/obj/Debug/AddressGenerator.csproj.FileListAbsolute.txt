@@ -8,3 +8,14 @@ C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGen
 C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.csproj.CoreCompileInputs.cache
 C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.exe
 C:\Users\Studente\Desktop\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.pdb
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\bin\Debug\AddressGenerator.exe.config
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\bin\Debug\AddressGenerator.exe
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\bin\Debug\AddressGenerator.pdb
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.csproj.AssemblyReference.cache
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.csproj.SuggestedBindingRedirects.cache
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.Form1.resources
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.Properties.Resources.resources
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.csproj.GenerateResource.cache
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.csproj.CoreCompileInputs.cache
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.exe
+Z:\Nicolò\Scuola\22-23\TPSIT\AddressGenerator-main\AddressGenerator\AddressGenerator\obj\Debug\AddressGenerator.pdb

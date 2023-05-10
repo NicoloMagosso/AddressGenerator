@@ -20,35 +20,51 @@ namespace AddressGenerator
 
         private void BtnCalcola_Click(object sender, EventArgs e)
         {
-            // Recupera l'indirizzo IP dalla casella di testo txtLettura
-            string indirizzoIP = txtLettura.Text;
+            if (txtLettura.Text != "" && txtCIDR.Text != "")
+            {
+                // Ottieni i valori di input dalla GUI
+                string inputAddress = txtLettura.Text;
+                int cidr = int.Parse(txtCIDR.Text);
 
-            // Converti l'indirizzo IP in un valore a 32 bit
-            uint bits = ConvertTo32Bit(indirizzoIP);
+                // Converte l'indirizzo IPv4 in un uint
+                uint address = BitConverter.ToUInt32(IPAddress.Parse(inputAddress).GetAddressBytes(), 0);
 
-            // Crea un oggetto AddressGenerator usando i 32 bit dell'indirizzo IP
-            AddressGenerator addressGenerator = new AddressGenerator(bits);
-
-            txtSM.Text = addressGenerator.generateSubnet();
+                // Crea l'istanza della classe AddressGenerator e genera l'IPv4 e la subnet
+                AddressGenerator_Class addressGenerator = new AddressGenerator_Class(address);
+                string ipv4 = addressGenerator.generateIPv4();
+                string subnet = addressGenerator.generateSubnet(cidr);
+                txtSM.Text = subnet;
+            }
+            else
+                MessageBox.Show("L'indirizzo IP non è valido.", "Invalido.", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        private uint ConvertTo32Bit(string indirizzoIP)
+        private void txtLettura_KeyPress(object sender, KeyPressEventArgs e)
         {
-            string[] indirizzoIPArray = indirizzoIP.Split('.');
-            if (indirizzoIPArray.Length != 4)
-            {
-                throw new ArgumentException("L'indirizzo IP deve essere nella forma A.B.C.D");
-            }
+            int charCode = (int)e.KeyChar;
 
-            uint bits = 0;
-            for (int i = 0; i < 4; i++)
+            if (char.IsDigit(e.KeyChar) || e.KeyChar == '.' || charCode == 8)
             {
-                byte b = byte.Parse(indirizzoIPArray[i]);
-                bits = bits << 8;
-                bits = bits | b;
+                e.Handled = false;
             }
+            else
+            {
+                e.Handled = true;
+            }
+        }
 
-            return bits;
+        private void txtCIDR_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            int charCode = (int)e.KeyChar;
+
+            if (char.IsDigit(e.KeyChar) || charCode == 8)
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
         }
     }
 }
